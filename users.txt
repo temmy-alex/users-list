@@ -1,0 +1,5 @@
+create table users (id serial, name varchar, email varchar);
+
+insert into users (name, email) values ('user 1', 'user1@mail.com');
+insert into users (name, email) values ('user 2', 'user2@mail.com');
+insert into users (name, email) values ('user 3', 'user3@mail.com');
